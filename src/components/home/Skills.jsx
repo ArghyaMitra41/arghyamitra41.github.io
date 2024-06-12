@@ -25,7 +25,10 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
         <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
           {heading}
         </h2>
-        <Tabs
+        <Row className="pt-3 px-1">
+              <SkillsTab skills={hardSkills} isScrolled={isScrolled} />
+            </Row>
+        {/* <Tabs
           className="skills-tabs"
           defaultActiveKey="hard-skills"
           id="skills-tabs"
@@ -49,7 +52,7 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
               <SkillsTab skills={softSkills} isScrolled={isScrolled} />
             </Row>
           </Tab>
-        </Tabs>
+        </Tabs> */}
       </Container>
     </Jumbotron>
   );

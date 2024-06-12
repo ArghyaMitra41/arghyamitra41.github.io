@@ -64,7 +64,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
   reposLength: 4,
@@ -127,16 +127,16 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "If you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "arghya.mitra41@gmail.com",
+  email: "arghya.mitra41@gmail.com"
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
       role: 'Senior Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
+      companylogo: "https://media.licdn.com/dms/image/D560BAQGvUn4m79Ajkw/company-logo_200_200/0/1717495493288/cloudkaptan_consultancy_services_private_limited_logo?e=1726099200&v=beta&t=Ie4mC_x1KyBaJomzxjvais-JEAXklwpQB-jkLrqbh-8",
       date: 'Oct 2020 – Present',
     },
   ]
