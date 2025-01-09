@@ -51,10 +51,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/arghyamitra.PNG"),
+  imageLink: require("../src/editable-stuff/arghyamitra.PNG"),
   imageSize: 375,
   message:
-    "Senior Software Engineer | CloudKaptan Consultancy Services | 2x Salesforce Certified | FinTech",
+    "Senior Software Engineer | CloudKaptan Consultancy Services | 3x Salesforce Certified | FinTech",
   resume: "https://docs.google.com/document/d/1NMbyJUVxtZKHXdkhMuSherBYxdDrTgDFSI2ezS8ZZCw/export?format=pdf",
 };
 
@@ -136,7 +136,7 @@ const experiences = {
   data: [
     {
       role: 'Senior Software Engineer',// Here Add Company Name
-      companylogo: "https://media.licdn.com/dms/image/D560BAQGvUn4m79Ajkw/company-logo_200_200/0/1717495493288/cloudkaptan_consultancy_services_private_limited_logo?e=1726099200&v=beta&t=Ie4mC_x1KyBaJomzxjvais-JEAXklwpQB-jkLrqbh-8",
+      companylogo: require("../src/editable-stuff/CK_Logo_Square.png"),
       date: 'Oct 2020 – Present',
     },
   ]

@@ -54,13 +54,13 @@ const Home = React.forwardRef((props, ref) => {
           imageSize={leadership.imageSize}
         />
       )}
-      {skills.show && (
+      {/* {skills.show && (
         <Skills
           heading={skills.heading}
           hardSkills={skills.hardSkills}
           softSkills={skills.softSkills}
         />
-      )}
+      )} */}
       
     </>
   );
