@@ -41,7 +41,7 @@ const mainBody = {
 //b) a link to an hosted image
 //      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
 //c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/arghyamitra.PNG"),
+//      i.e: profilePictureLink: require("../editable-stuff/arghyamitra.jpg"),
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
@@ -51,7 +51,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../src/editable-stuff/arghyamitra.PNG"),
+  imageLink: require("../editable-stuff/arghyamitra.jpg"),
   imageSize: 375,
   message:
     "Senior Software Engineer | CloudKaptan Consultancy Services | 3x Salesforce Certified | FinTech",
@@ -79,12 +79,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/arghyamitra.PNG"), 
+      img: require("../editable-stuff/arghyamitra.jpg"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/arghyamitra.PNG"), 
+      img: require("../editable-stuff/arghyamitra.jpg"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -136,7 +136,7 @@ const experiences = {
   data: [
     {
       role: 'Senior Software Engineer',// Here Add Company Name
-      companylogo: require("../src/editable-stuff/CK_Logo_Square.png"),
+      companylogo: require("../editable-stuff/CK Square Logo.jpg"),
       date: 'Oct 2020 – Present',
     },
   ]
