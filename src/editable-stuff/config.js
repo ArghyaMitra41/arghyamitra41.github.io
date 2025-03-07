@@ -16,20 +16,24 @@ const mainBody = {
       url: "https://github.com/ArghyaMitra41/",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/arghya.mitra/",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/instrumentaaal/",
-    },
-    {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/arghya-mitra/",
     },
     {
       image: "fa-twitter",
       url: "https://twitter.com/instrumentaaaal/",
+    },
+    // {
+    //   image: "fa-facebook",
+    //   url: "https://www.facebook.com/arghya.mitra/",
+    // },
+    {
+      image: "fa-youtube",
+      url: "https://www.youtube.com/@instrumentaaal/",
+    },
+    {
+      image: "fa-instagram",
+      url: "https://www.instagram.com/instrumentaaal/",
     },
   ],
 };
