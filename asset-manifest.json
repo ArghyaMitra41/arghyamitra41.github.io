@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b36ca83.css",
-    "main.js": "/static/js/main.7c67d144.js",
+    "main.css": "/static/css/main.dc767ec8.css",
+    "main.js": "/static/js/main.7431e8ff.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
     "static/media/arghyamitra.jpg": "/static/media/arghyamitra.9eaa4d0a9e55526320c5.jpg",
+    "static/media/indian_institute_of_technology_bombay_logo.jpeg": "/static/media/indian_institute_of_technology_bombay_logo.eac1dd40739c6c71525f.jpeg",
     "index.html": "/index.html",
-    "main.4b36ca83.css.map": "/static/css/main.4b36ca83.css.map",
-    "main.7c67d144.js.map": "/static/js/main.7c67d144.js.map",
+    "main.dc767ec8.css.map": "/static/css/main.dc767ec8.css.map",
+    "main.7431e8ff.js.map": "/static/js/main.7431e8ff.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b36ca83.css",
-    "static/js/main.7c67d144.js"
+    "static/css/main.dc767ec8.css",
+    "static/js/main.7431e8ff.js"
   ]
 }
