@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="faviconTitle">
+  <title id="faviconTitle">Arghya Mitra favicon</title>
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f08a62" />
+      <stop offset="0.5" stop-color="#d9613c" />
+      <stop offset="1" stop-color="#4c8ea7" />
+    </linearGradient>
+    <linearGradient id="shine" x1="18" y1="10" x2="48" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff7ef" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#fff7ef" stop-opacity="0.72" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)" />
+  <path d="M18 49 28 16h7l10 33h-6.8l-2.1-7.3H26.8L24.6 49Zm10.3-12.6h6.3l-3.1-10.9Z" fill="url(#shine)" />
+  <path d="M44.6 49V22.8h5.8l5.6 10.4V49h-6V34.5l-5.4-9.8V49Z" fill="#20150f" fill-opacity="0.72" />
+</svg>

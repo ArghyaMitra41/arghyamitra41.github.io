@@ -4,9 +4,7 @@ import {
   navBar,
   mainBody,
   about,
-  repos,
   leadership,
-  skills,
   getInTouch,
   experiences
 } from "./editable-stuff/config.js";
@@ -14,7 +12,6 @@ import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Skills from "./components/home/Skills";
 // import { Blog } from "./components/blog/Blog";
 // import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
@@ -26,9 +23,10 @@ const Home = React.forwardRef((props, ref) => {
   return (
     <>
       <MainBody
-        gradient={mainBody.gradientColors}
         title={`${mainBody.firstName} ${mainBody.middleName} ${mainBody.lastName}`}
         message={mainBody.message}
+        description={mainBody.description}
+        tags={mainBody.tags}
         icons={mainBody.icons}
         ref={ref}
       />
@@ -36,6 +34,8 @@ const Home = React.forwardRef((props, ref) => {
         <AboutMe
           heading={about.heading}
           message={about.message}
+          summary={about.summary}
+          highlights={about.highlights}
           link={about.imageLink}
           imgSize={about.imageSize}
           resume={about.resume}

@@ -8,11 +8,12 @@ import {
 
 const Experience = ({ experiences }) => {
   return (
-    <section className="section">
+    <section className="section-shell">
       <Container>
-        <Jumbotron className="bg-white">
-          <h2 className="display-4 mb-5 text-center">
-            {experiences.heading}
+        <Jumbotron className="section-card experience-section">
+          <p className="section-kicker text-center">{experiences.heading}</p>
+          <h2 className="display-4 mb-5 text-center section-title">
+            Experience that ships with confidence
           </h2>
           <Row>
             {

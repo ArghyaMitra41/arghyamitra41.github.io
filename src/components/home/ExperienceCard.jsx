@@ -6,15 +6,17 @@ import {
 
 const ExperienceCard = ({ data }) => {
   return (
-    <Col lg="6">
-      <div className="pb-5 text-center">
-        <img className=" bg-white mb-3" src={data.companylogo} alt="" />
-        <p className="lead">
-          {data.role}
-          <br />
-          {data.date}
-        </p>
-
+    <Col lg="6" className="mb-4">
+      <div className="experience-card h-100">
+        <div className="experience-logo-wrap">
+          <img className="experience-logo" src={data.companylogo} alt={data.company || data.role} />
+        </div>
+        <p className="experience-role">{data.role}</p>
+        {data.company && <p className="experience-company">{data.company}</p>}
+        <p className="experience-date">{data.date}</p>
+        {data.summary && (
+          <p className="experience-summary">{data.summary}</p>
+        )}
       </div>
     </Col>
   );

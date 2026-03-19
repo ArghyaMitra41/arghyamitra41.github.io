@@ -1,6 +1,6 @@
 // Navigation Bar SECTION
 const navBar = {
-  show: true,
+  show: false,
 };
 
 // Main Body SECTION
@@ -10,6 +10,14 @@ const mainBody = {
   middleName: "",
   lastName: "Mitra",
   message: "Lead Salesforce Developer",
+  description:
+    "Building resilient Salesforce experiences for fintech and enterprise teams with a strong focus on delivery quality, cloud architecture, and user trust.",
+  tags: [
+    "3x Salesforce Certified",
+    "FinTech Delivery",
+    "Cloud Architecture",
+    "Client-Facing Leadership",
+  ],
   icons: [
     {
       image: "fa-github",
@@ -58,7 +66,14 @@ const about = {
   imageLink: require("../editable-stuff/arghyamitra.jpg"),
   imageSize: 375,
   message:
-    "Senior Software Engineer | CloudKaptan Consultancy Services | 3x Salesforce Certified | FinTech",
+    "I am a Lead Engineer at CloudKaptan Consultancy Services, focused on building scalable Salesforce solutions that help teams ship faster, operate reliably, and create better customer experiences.",
+  summary:
+    "My work sits at the intersection of product thinking, delivery ownership, and platform engineering. I enjoy turning complex business requirements into thoughtful systems that are stable, maintainable, and easy for teams to evolve.",
+  highlights: [
+    "Designing and delivering Salesforce solutions for high-impact business workflows",
+    "Balancing architecture decisions with hands-on implementation",
+    "Partnering closely with stakeholders to translate goals into reliable releases",
+  ],
   resume: "https://docs.google.com/document/d/1NMbyJUVxtZKHXdkhMuSherBYxdDrTgDFSI2ezS8ZZCw/export?format=pdf",
 };
 
@@ -130,7 +145,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "If you have any questions, or if you just want to say hi, please feel free to email me at",
+    "If you are building something ambitious, hiring for a Salesforce role, or simply want to connect, feel free to reach out at",
   email: "arghya.mitra41@gmail.com"
 };
 
@@ -139,9 +154,12 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Senior Software Engineer',// Here Add Company Name
+      role: 'Lead Engineer',// Here Add Company Name
+      company: 'CloudKaptan Consultancy Services',
       companylogo: require("../editable-stuff/CK Square Logo.jpg"),
       date: 'Oct 2020 – Present',
+      summary:
+        "Leading Salesforce delivery across enterprise engagements with a focus on scalable implementations, platform quality, and stakeholder alignment.",
     },
   ]
 }
