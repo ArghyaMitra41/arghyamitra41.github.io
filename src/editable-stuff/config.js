@@ -9,14 +9,14 @@ const mainBody = {
   firstName: "Arghya",
   middleName: "",
   lastName: "Mitra",
-  message: "Lead Salesforce Developer",
+  message: "Lead Salesforce Engineer",
   description:
-    "Building resilient Salesforce experiences for fintech and enterprise teams with a strong focus on delivery quality, cloud architecture, and user trust.",
+    "Lead Salesforce Engineer building lending and fintech products with Apex, LWC, REST integrations, Agentforce AI, and a strong focus on scalable delivery.",
   tags: [
-    "3x Salesforce Certified",
-    "FinTech Delivery",
-    "Cloud Architecture",
-    "Client-Facing Leadership",
+    "Salesforce + Lending",
+    "Agentforce AI",
+    "10+ Stable Integrations",
+    "Team Leadership",
   ],
   icons: [
     {
@@ -66,15 +66,15 @@ const about = {
   imageLink: require("../editable-stuff/arghyamitra.jpg"),
   imageSize: 375,
   message:
-    "I am a Lead Engineer at CloudKaptan Consultancy Services, focused on building scalable Salesforce solutions that help teams ship faster, operate reliably, and create better customer experiences.",
+    "I am a Lead Engineer at Cloudkaptan Consultancy Services, focused on designing and delivering Salesforce solutions for lending and enterprise workflows.",
   summary:
-    "My work sits at the intersection of product thinking, delivery ownership, and platform engineering. I enjoy turning complex business requirements into thoughtful systems that are stable, maintainable, and easy for teams to evolve.",
+    "My work blends architecture, hands-on development, stakeholder collaboration, and delivery leadership. I enjoy turning complex business requirements into scalable products using Apex, Lightning Web Components, Visualforce, REST APIs, and asynchronous Salesforce patterns.",
   highlights: [
-    "Designing and delivering Salesforce solutions for high-impact business workflows",
-    "Balancing architecture decisions with hands-on implementation",
-    "Partnering closely with stakeholders to translate goals into reliable releases",
+    "Built end-to-end lending workflows and real-time bank file modules on Salesforce",
+    "Delivered and stabilized 10+ integrations across ID verification, bureau reports, and payment systems",
+    "Implemented Salesforce Agentforce AI for lending document summarisation and supported quality through reviews and testing",
   ],
-  resume: "https://docs.google.com/document/d/1NMbyJUVxtZKHXdkhMuSherBYxdDrTgDFSI2ezS8ZZCw/export?format=pdf",
+  resume: "/arghya-mitra-cv-2026.pdf",
 };
 
 // PROJECTS SECTION
@@ -145,21 +145,29 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "If you are building something ambitious, hiring for a Salesforce role, or simply want to connect, feel free to reach out at",
+    "If you are hiring for Salesforce engineering, building in fintech, or want to discuss platform architecture and integrations, feel free to reach out at",
   email: "arghya.mitra41@gmail.com"
 };
 
 const experiences = {
   show: true,
-  heading: "Experiences",
+  heading: "Experience",
   data: [
     {
       role: 'Lead Engineer',// Here Add Company Name
       company: 'CloudKaptan Consultancy Services',
       companylogo: require("../editable-stuff/CK Square Logo.jpg"),
-      date: 'Oct 2020 – Present',
+      date: 'Oct 2020 - Present',
       summary:
-        "Leading Salesforce delivery across enterprise engagements with a focus on scalable implementations, platform quality, and stakeholder alignment.",
+        "Leading Salesforce solution design and delivery for lending products, building Apex, LWC, Visualforce, REST services, async processing, and compliance-focused workflows while mentoring developers and driving code quality.",
+    },
+    {
+      role: 'Summer Research Intern (Artificial Intelligence)',
+      company: 'Indian Institute of Technology, Bombay',
+      companylogo: require("../editable-stuff/indian_institute_of_technology_bombay_logo.jpeg"),
+      date: 'Jun 2019 - Aug 2019',
+      summary:
+        "Built NLP and computer-vision based research tooling, including work on research paper summarization and a PDF extractor using Python, OCR, OpenCV, PyMuPDF, Pandas, and NumPy.",
     },
   ]
 }
