@@ -6,7 +6,8 @@ import {
   about,
   leadership,
   getInTouch,
-  experiences
+  experiences,
+  blogs,
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -16,7 +17,7 @@ import Navbar from "./components/Navbar";
 // import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
-
+import Blogs from "./components/home/Blogs.jsx";
 import Experience from "./components/home/Experience";
 
 const Home = React.forwardRef((props, ref) => {
@@ -46,6 +47,7 @@ const Home = React.forwardRef((props, ref) => {
           <Experience experiences={experiences}/>
         )
       }
+      {blogs.show && <Blogs blogs={blogs} />}
       {leadership.show && (
         <Leadership
           heading={leadership.heading}

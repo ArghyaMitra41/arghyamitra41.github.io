@@ -173,8 +173,27 @@ const experiences = {
 }
 
 // Blog SECTION
-// const blog = {
-//   show: false,
-// };
+const blogs = {
+  show: true,
+  heading: "Blogs",
+  message:
+    "A mix of interview experience and Salesforce thought leadership that reflects both my career journey and my platform focus.",
+  data: [
+    {
+      title: "Decoding Salesforce Einstein Features Which Can Boost Your Sales Process",
+      source: "CloudKaptan Insights",
+      summary:
+        "A CloudKaptan insights article exploring Salesforce Einstein capabilities that can strengthen sales workflows and decision-making.",
+      url: "https://www.cloudkaptan.com/insights/decoding-salesforce-einstein-features-which-can-boost-your-sales-process",
+    },
+    {
+      title: "Cloudkaptan Interview Experience",
+      source: "GeeksforGeeks",
+      summary:
+        "An interview experience write-up covering the Cloudkaptan hiring process, rounds, and takeaways.",
+      url: "https://www.geeksforgeeks.org/interview-experiences/cloudkaptan-interview-experience",
+    },
+  ],
+};
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blogs };
